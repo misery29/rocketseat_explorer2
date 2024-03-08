@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+  
+    font-family: "JetBrains Mono", monospace;  
+    background: #2F2E41;
+  
+    min-height: 100vh;
+  }
+  
+  .page {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 65px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 55px;
+    gap:607px;
+  }
+  
+  ul, ul li {
+    display: flex;
+    list-style: none;
+    gap: 64px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  ul li a {
+      opacity: 1;
+  }
+  
+  ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+  }
+  
+  h1,
+  ul {
+    font-family: "JetBrains Mono", monospace;  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    gap: 82px;
+  }
+
+
+  h1 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #C2C2C2;
+    white-space: nowrap;
+    font-weight: normal;
+  
+    width: 490px;
+  }
+  
+  h1 span {
+    color: #00BFA6;
+    font-weight: bold;
+  }
+  
+  section p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #C2C2C2;
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  p span{
+    color: #00BFA6;
+    font-weight: bold;
+  }
+  
+  button {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    background: #69B99D;
+    border: 0;
+    padding: 0 50px 30px;
+  
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  
+    border-radius: 4px;
+  
+    cursor: pointer;
+    padding: 15px 32px;
+  }
+  
+  button:hover {
+      background: #4EA788;
+  }
+
+
+  
+  footer {
+    font-size: 14px;
+    color: #fff;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 150px;
+    border-top: 1px solid #00BFA6;
+    padding-top: 27px;
+  }
+  
+  footer a {
+    font-weight: bold;
+  }
+  
+  #balls {
+    position: fixed;
+      bottom: 15.5%;
+      left: 12%;
+      height: 100px;
+  }
+  
